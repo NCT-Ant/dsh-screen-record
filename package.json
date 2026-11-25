@@ -1,0 +1,43 @@
+{
+  "name": "dsh-screen-record",
+  "version": "1.0.0",
+  "description": "Screen recording and screenshots for AI agents: callable screen_record / screen_record_control / screenshot tools backed by a local ffmpeg.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "screen-recording",
+    "screenshot",
+    "ffmpeg",
+    "windows"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCT-Ant/dsh-screen-record.git"
+  },
+  "homepage": "https://github.com/NCT-Ant/dsh-screen-record#readme",
+  "bugs": {
+    "url": "https://github.com/NCT-Ant/dsh-screen-record/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

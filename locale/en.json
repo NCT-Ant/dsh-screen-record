@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Screen recording",
+    "description": "Record the Windows desktop and take screenshots from an agent call: screen_record, screen_record_control and screenshot, backed by a local ffmpeg."
+  }
+}

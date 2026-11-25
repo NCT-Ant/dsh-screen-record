@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "录屏与截屏",
+    "description": "让 Agent 直接录屏和截屏：screen_record、screen_record_control 与 screenshot 三个工具，底层调用本机 ffmpeg 抓取桌面，输出 MP4 和 PNG。"
+  }
+}
